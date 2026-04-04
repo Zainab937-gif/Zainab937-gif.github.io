@@ -1,0 +1,16 @@
+title: Zainab Aamir
+description: Computer Engineering Student
+baseurl: ""
+url: "https://zainabaamir.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  programming:
+    output: true
+    permalink: /programming/:name/
+  database:
+    output: true
+    permalink: /database/:name/
